@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 250px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #32CD32;
+    colour: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #DCDCDC; /* Set background color for even rows */
+  }
+  
